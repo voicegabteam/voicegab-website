@@ -98,15 +98,10 @@
   text-decoration: none;
   color: var(--text-primary);
 }
-.navbar__logo-icon {
-  width: 36px; height: 36px;
-  background: var(--gradient-brand);
-  border-radius: 10px;
-  display: flex; align-items: center; justify-content: center;
-}
-.navbar__logo-icon svg {
-  width: 20px;
-  height: 20px;
+.navbar__logo-img {
+  height: 36px;
+  width: auto;
+  flex-shrink: 0;
 }
 .navbar__links {
   display: flex;
