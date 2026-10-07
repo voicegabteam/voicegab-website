@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 560" width="280" height="560">
+  <defs>
+    <linearGradient id="ss1-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="560" rx="32" fill="#0D1117" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <!-- Status bar -->
+  <text x="24" y="36" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#9CA3AF">9:41</text>
+  <!-- Header -->
+  <rect x="0" y="48" width="280" height="48" fill="rgba(255,255,255,0.03)"/>
+  <circle cx="36" cy="72" r="14" fill="url(#ss1-grad)" opacity="0.7"/>
+  <text x="60" y="68" font-family="Space Grotesk, sans-serif" font-size="15" font-weight="700" fill="#F9FAFB">Alex Rivera</text>
+  <text x="60" y="82" font-family="Inter, sans-serif" font-size="10" fill="#22C55E">Online</text>
+  <!-- Voice bubbles -->
+  <g transform="translate(16, 116)">
+    <rect width="180" height="50" rx="12" fill="rgba(255,255,255,0.05)"/>
+    <rect x="12" y="16" width="2.5" height="10" rx="1" fill="#06B6D4" opacity="0.6"/>
+    <rect x="17" y="12" width="2.5" height="18" rx="1" fill="#06B6D4" opacity="0.7"/>
+    <rect x="22" y="16" width="2.5" height="10" rx="1" fill="#06B6D4" opacity="0.5"/>
+    <rect x="27" y="10" width="2.5" height="22" rx="1" fill="#06B6D4" opacity="0.8"/>
+    <rect x="32" y="14" width="2.5" height="14" rx="1" fill="#06B6D4" opacity="0.6"/>
+    <rect x="37" y="8" width="2.5" height="26" rx="1" fill="#06B6D4" opacity="0.9"/>
+    <rect x="42" y="16" width="2.5" height="10" rx="1" fill="#06B6D4" opacity="0.5"/>
+    <rect x="47" y="12" width="2.5" height="18" rx="1" fill="#06B6D4" opacity="0.7"/>
+    <text x="12" y="42" font-family="Inter, sans-serif" font-size="9" fill="#6B7280">0:08 &middot; 2:31 PM</text>
+  </g>
+  <g transform="translate(84, 184)">
+    <rect width="180" height="50" rx="12" fill="rgba(124,58,237,0.15)"/>
+    <rect x="12" y="14" width="2.5" height="14" rx="1" fill="#8B5CF6" opacity="0.7"/>
+    <rect x="17" y="10" width="2.5" height="22" rx="1" fill="#8B5CF6" opacity="0.8"/>
+    <rect x="22" y="16" width="2.5" height="10" rx="1" fill="#8B5CF6" opacity="0.5"/>
+    <rect x="27" y="8" width="2.5" height="26" rx="1" fill="#8B5CF6" opacity="0.9"/>
+    <rect x="32" y="14" width="2.5" height="14" rx="1" fill="#8B5CF6" opacity="0.6"/>
+    <rect x="37" y="12" width="2.5" height="18" rx="1" fill="#8B5CF6" opacity="0.7"/>
+    <rect x="42" y="16" width="2.5" height="10" rx="1" fill="#8B5CF6" opacity="0.5"/>
+    <rect x="47" y="10" width="2.5" height="22" rx="1" fill="#8B5CF6" opacity="0.8"/>
+    <text x="12" y="42" font-family="Inter, sans-serif" font-size="9" fill="#6B7280">0:15 &middot; 2:33 PM</text>
+  </g>
+  <g transform="translate(16, 252)">
+    <rect width="160" height="50" rx="12" fill="rgba(255,255,255,0.05)"/>
+    <rect x="12" y="12" width="2.5" height="18" rx="1" fill="#06B6D4" opacity="0.7"/>
+    <rect x="17" y="16" width="2.5" height="10" rx="1" fill="#06B6D4" opacity="0.5"/>
+    <rect x="22" y="8" width="2.5" height="26" rx="1" fill="#06B6D4" opacity="0.9"/>
+    <rect x="27" y="14" width="2.5" height="14" rx="1" fill="#06B6D4" opacity="0.6"/>
+    <rect x="32" y="10" width="2.5" height="22" rx="1" fill="#06B6D4" opacity="0.8"/>
+    <rect x="37" y="16" width="2.5" height="10" rx="1" fill="#06B6D4" opacity="0.5"/>
+    <text x="12" y="42" font-family="Inter, sans-serif" font-size="9" fill="#6B7280">0:04 &middot; 2:35 PM</text>
+  </g>
+  <!-- Bottom bar -->
+  <rect x="16" y="496" width="200" height="36" rx="18" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+  <text x="32" y="518" font-family="Inter, sans-serif" font-size="12" fill="#6B7280">Hold to record...</text>
+  <circle cx="244" cy="514" r="18" fill="url(#ss1-grad)"/>
+</svg>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features — VoiceGab</title>
+  <meta name="description" content="Explore VoiceGab's full feature set: AI voice filters, end-to-end encryption, live waveforms, offline support, voice social feed, and more.">
+  <meta name="author" content="VoiceGab">
+
+  <meta property="og:title" content="Features — VoiceGab">
+  <meta property="og:description" content="Explore VoiceGab's full feature set: AI voice filters, E2E encryption, live waveforms, and more.">
+  <meta property="og:image" content="https://voicegab.com/assets/img/og-image.png">
+  <meta property="og:url" content="https://voicegab.com/features">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Features — VoiceGab">
+  <meta name="twitter:description" content="Explore VoiceGab's full feature set: AI voice filters, E2E encryption, live waveforms, and more.">
+  <meta name="twitter:image" content="https://voicegab.com/assets/img/og-image.png">
+
+  <link rel="canonical" href="https://voicegab.com/features">
+  <link rel="icon" type="image/svg+xml" href="assets/img/app-icon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/design-system.css?v=2">
+  <link rel="stylesheet" href="assets/css/components.css?v=2">
+  <link rel="stylesheet" href="assets/css/animations.css?v=2">
+  <meta name="theme-color" content="#080B14">
+</head>
+<body>
+  <!-- ═══ NAVBAR ═══ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo" aria-label="VoiceGab Home">
+          <div class="navbar__logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" width="20" height="20">
+              <rect x="9" y="2" width="6" height="11" rx="3"/>
+              <path d="M5 10a7 7 0 0 0 14 0"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+            </svg>
+          </div>
+          VoiceGab
+        </a>
+        <ul class="navbar__links">
+          <li><a href="features.html" class="active">Features</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+        <div class="navbar__cta">
+          <a href="download.html" class="btn btn--primary btn--small">Get the App</a>
+        </div>
+        <button class="navbar__hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="navbar__mobile-menu" role="dialog" aria-label="Mobile menu">
+      <a href="index.html">Home</a>
+      <a href="features.html">Features</a>
+      <a href="download.html">Download</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <div style="margin-top:auto;">
+        <a href="download.html" class="btn btn--primary btn--large" style="width:100%;justify-content:center;">Get the App</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ PAGE HEADER ═══ -->
+  <section class="page-header">
+    <canvas id="hero-canvas" style="position:absolute;inset:0;width:100%;height:100%;opacity:0.2;" aria-hidden="true"></canvas>
+    <div class="container">
+      <div class="page-header__content text-center">
+        <div class="hero-badge reveal">
+          <span class="hero-badge__dot"></span>
+          v1.0 — Now Live
+        </div>
+        <h1 class="reveal reveal--delay-1">Every feature.<br><span class="text-gradient">Perfectly crafted.</span></h1>
+        <p class="mt-16 reveal reveal--delay-2" style="max-width:560px;margin:16px auto 0;">
+          Voice messaging reimagined from the ground up. Built with obsessive attention to quality, security, and delight.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FEATURE DEEP DIVES ═══ -->
+
+  <!-- Voice Recording -->
+  <section>
+    <div class="container">
+      <div class="feature-row reveal">
+        <div class="feature-row__content">
+          <span class="label">Voice Recording</span>
+          <h3>Crystal clear, impossibly small.</h3>
+          <p>VoiceGab uses the Opus codec at 16kbps and 16kHz sample rate, delivering voice quality on par with Discord while producing files 87% smaller than AAC. Every millisecond of your voice is faithfully captured and compressed.</p>
+          <div class="flex gap-16 mt-24" style="flex-wrap:wrap;">
+            <div class="card" style="padding:16px 20px;flex:1;min-width:120px;text-align:center;">
+              <div style="font-size:28px;font-weight:800;font-family:var(--font-display);" class="text-gradient">16kbps</div>
+              <div class="text-muted mt-8">Bitrate</div>
+            </div>
+            <div class="card" style="padding:16px 20px;flex:1;min-width:120px;text-align:center;">
+              <div style="font-size:28px;font-weight:800;font-family:var(--font-display);" class="text-gradient">16kHz</div>
+              <div class="text-muted mt-8">Sample Rate</div>
+            </div>
+            <div class="card" style="padding:16px 20px;flex:1;min-width:120px;text-align:center;">
+              <div style="font-size:28px;font-weight:800;font-family:var(--font-display);" class="text-gradient">87%</div>
+              <div class="text-muted mt-8">Smaller than AAC</div>
+            </div>
+          </div>
+        </div>
+        <div class="feature-row__visual">
+          <div class="waveform-demo" style="transform:scale(2);">
+            <span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span>
+            <span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span>
+            <span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span>
+            <span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span><span class="waveform-bar"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Voice Filters -->
+  <section style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="feature-row feature-row--reverse reveal">
+        <div class="feature-row__content">
+          <span class="label">AI Voice Filters</span>
+          <h3>Transform how you sound.</h3>
+          <p>12 AI-powered voice filters let you express yourself in entirely new ways. Apply filters in real-time, preview before sending, and surprise your friends with creative voice messages.</p>
+          <div class="grid-2 mt-24" style="gap:12px;">
+            <div class="card" style="padding:14px 18px;display:flex;align-items:center;gap:12px;">
+              <span style="font-size:22px;">&#x1F916;</span><span style="font-size:14px;font-weight:600;">Robot</span>
+            </div>
+            <div class="card" style="padding:14px 18px;display:flex;align-items:center;gap:12px;">
+              <span style="font-size:22px;">&#x1F50A;</span><span style="font-size:14px;font-weight:600;">Echo</span>
+            </div>
+            <div class="card" style="padding:14px 18px;display:flex;align-items:center;gap:12px;">
+              <span style="font-size:22px;">&#x1F43F;&#xFE0F;</span><span style="font-size:14px;font-weight:600;">Chipmunk</span>
+            </div>
+            <div class="card" style="padding:14px 18px;display:flex;align-items:center;gap:12px;">
+              <span style="font-size:22px;">&#x1F509;</span><span style="font-size:14px;font-weight:600;">Deep Voice</span>
+            </div>
+            <div class="card" style="padding:14px 18px;display:flex;align-items:center;gap:12px;">
+              <span style="font-size:22px;">&#x1F3B5;</span><span style="font-size:14px;font-weight:600;">Chorus</span>
+            </div>
+            <div class="card" style="padding:14px 18px;display:flex;align-items:center;gap:12px;">
+              <span style="font-size:22px;">&#x1F30A;</span><span style="font-size:14px;font-weight:600;">Underwater</span>
+            </div>
+          </div>
+        </div>
+        <div class="feature-row__visual">
+          <img src="assets/img/screenshots/filters-screen.svg" alt="Voice filter selection interface" width="280" height="560" style="max-height:440px;width:auto;" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- E2E Encryption -->
+  <section>
+    <div class="container">
+      <div class="feature-row reveal">
+        <div class="feature-row__content">
+          <span class="label">End-to-End Encryption</span>
+          <h3>Military-grade security, by default.</h3>
+          <p>Every voice message is encrypted with AES-256-GCM before it leaves your device. Your local database is protected with SQLCipher using 256K PBKDF2 iterations. We can't read your messages, and neither can anyone else.</p>
+          <ul class="security-list mt-24">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M20 6L9 17l-5-5"/></svg>
+              AES-256-GCM encryption at rest and in transit
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M20 6L9 17l-5-5"/></svg>
+              Certificate-pinned HTTPS with TLS 1.3
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M20 6L9 17l-5-5"/></svg>
+              HMAC-SHA256 signed API requests
+            </li>
+          </ul>
+        </div>
+        <div class="feature-row__visual">
+          <svg width="200" height="240" viewBox="0 0 200 240" fill="none" class="animate-float">
+            <defs>
+              <linearGradient id="f-shield" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" style="stop-color:#7C3AED"/>
+                <stop offset="100%" style="stop-color:#06B6D4"/>
+              </linearGradient>
+            </defs>
+            <path d="M100 10 L180 50 L180 120 C180 170 140 210 100 230 C60 210 20 170 20 120 L20 50 Z" fill="url(#f-shield)" opacity="0.15" stroke="url(#f-shield)" stroke-width="2"/>
+            <path d="M100 40 L155 65 L155 115 C155 150 130 180 100 195 C70 180 45 150 45 115 L45 65 Z" fill="url(#f-shield)" opacity="0.1"/>
+            <path d="M78 120 L95 137 L125 100" stroke="#22C55E" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Social Feed -->
+  <section style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="feature-row feature-row--reverse reveal">
+        <div class="feature-row__content">
+          <span class="label">Voice Social Feed</span>
+          <h3>Discover voices from around the world.</h3>
+          <p>The Voice Feed is a social discovery layer where you can post public voice messages, explore trending voices, and engage with a global community — all through voice.</p>
+          <div class="flex gap-24 mt-24" style="flex-wrap:wrap;">
+            <div style="text-align:center;">
+              <div style="font-size:32px;font-weight:800;font-family:var(--font-display);" class="text-gradient">&#x2764;&#xFE0F;</div>
+              <div class="text-muted mt-8">Like</div>
+            </div>
+            <div style="text-align:center;">
+              <div style="font-size:32px;font-weight:800;font-family:var(--font-display);" class="text-gradient">&#x1F504;</div>
+              <div class="text-muted mt-8">Share</div>
+            </div>
+          </div>
+        </div>
+        <div class="feature-row__visual">
+          <img src="assets/img/screenshots/feed-screen.svg" alt="Voice social feed interface" width="280" height="560" style="max-height:440px;width:auto;" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offline Support -->
+  <section>
+    <div class="container">
+      <div class="feature-row reveal">
+        <div class="feature-row__content">
+          <span class="label">Offline Support</span>
+          <h3>No signal? No problem.</h3>
+          <p>VoiceGab uses a local-first architecture with Drift SQLite database. Record voice messages offline, queue them automatically, and they'll be sent the moment you're back online. Zero messages lost.</p>
+        </div>
+        <div class="feature-row__visual">
+          <div style="text-align:center;">
+            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" class="animate-float">
+              <circle cx="60" cy="60" r="50" stroke="rgba(124,58,237,0.3)" stroke-width="2" fill="none" stroke-dasharray="8 4"/>
+              <circle cx="60" cy="60" r="35" stroke="rgba(6,182,212,0.3)" stroke-width="2" fill="none" stroke-dasharray="6 3" class="animate-spin-slow"/>
+              <circle cx="60" cy="60" r="8" fill="#7C3AED"/>
+              <circle cx="60" cy="60" r="4" fill="white"/>
+            </svg>
+            <p class="mt-16 text-muted">Auto-sync when online</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notifications -->
+  <section style="background:var(--bg-secondary);">
+    <div class="container">
+      <div class="feature-row feature-row--reverse reveal">
+        <div class="feature-row__content">
+          <span class="label">Smart Notifications</span>
+          <h3>Stay in the loop, on your terms.</h3>
+          <p>Firebase Cloud Messaging delivers instant push notifications. Tap to jump straight into the conversation. Schedule quiet hours so your phone respects your downtime.</p>
+        </div>
+        <div class="feature-row__visual">
+          <div class="card" style="max-width:280px;padding:20px;">
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">
+              <div class="navbar__logo-icon" style="width:28px;height:28px;border-radius:7px;">
+                <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" width="14" height="14">
+                  <rect x="9" y="2" width="6" height="11" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/>
+                </svg>
+              </div>
+              <div>
+                <div style="font-size:13px;font-weight:600;">VoiceGab</div>
+                <div class="text-muted" style="font-size:11px;">now</div>
+              </div>
+            </div>
+            <p style="font-size:14px;color:var(--text-primary);">VOICE GAB sent you a voice message</p>
+            <div class="waveform-demo mt-16" style="height:24px;">
+              <span class="waveform-bar" style="height:12px;"></span>
+              <span class="waveform-bar" style="height:18px;"></span>
+              <span class="waveform-bar" style="height:8px;"></span>
+              <span class="waveform-bar" style="height:20px;"></span>
+              <span class="waveform-bar" style="height:14px;"></span>
+              <span class="waveform-bar" style="height:22px;"></span>
+              <span class="waveform-bar" style="height:10px;"></span>
+              <span class="waveform-bar" style="height:16px;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ COMPARISON TABLE ═══ -->
+  <section>
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="label">Comparison</span>
+        <h2 class="mt-16">VoiceGab vs the rest.</h2>
+        <p class="mt-16" style="max-width:480px;margin:16px auto 0;">See how VoiceGab stacks up against other messaging platforms.</p>
+      </div>
+
+      <div class="mt-48 reveal" style="overflow-x:auto;">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>VoiceGab</th>
+              <th>WhatsApp</th>
+              <th>Telegram</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Voice-first UI</td>
+              <td>&#x2705;</td>
+              <td>&#x274C;</td>
+              <td>&#x274C;</td>
+            </tr>
+            <tr>
+              <td>AI Voice Filters</td>
+              <td>&#x2705;</td>
+              <td>&#x274C;</td>
+              <td>&#x274C;</td>
+            </tr>
+            <tr>
+              <td>Opus 16kbps</td>
+              <td>&#x2705;</td>
+              <td>&#x274C;</td>
+              <td>&#x2705;</td>
+            </tr>
+            <tr>
+              <td>Encrypted at Rest</td>
+              <td>&#x2705;</td>
+              <td>&#x274C;</td>
+              <td>&#x274C;</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA ═══ -->
+  <section>
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Start talking.<br>Stop typing.</h2>
+        <p class="mt-16" style="max-width:480px;margin-left:auto;margin-right:auto;">
+          Free to download. Download VoiceGab today.
+        </p>
+        <div class="flex-center gap-16 mt-32" style="flex-wrap:wrap;">
+          <a href="#" class="btn-store">
+            <svg class="btn-store__icon" viewBox="0 0 32 32" fill="currentColor"><path d="M22.5 4c-.2 0-3.5.1-5.7 2.8C15.2 4.5 12.8 4 12.5 4 8.4 4 6 7.6 6 11c0 5.7 6.3 13.4 9.2 16.5.6.6 1.4 1 2.2 1h.2c.8 0 1.5-.3 2.1-.9C22.7 24.5 29 16.8 29 11c0-3.4-2.9-7-6.5-7zM16 6c1-1.2 2.6-2 4-2 .1 0 .3 0 .4 0-1 .6-2.1 1.7-2.8 3.2-.3.6-.5 1.3-.6 2-.1-.7-.3-1.4-.6-2C15.7 5.7 16 6 16 6z"/></svg>
+            <div class="btn-store__text">
+              <span class="btn-store__sub">Download on the</span>
+              <span class="btn-store__name">App Store</span>
+            </div>
+          </a>
+          <a href="#" class="btn-store">
+            <svg class="btn-store__icon" viewBox="0 0 32 32" fill="currentColor"><path d="M5.4 2.5C5.1 2.8 5 3.3 5 3.8v24.4c0 .5.1 1 .4 1.3l.1.1L17.6 17.5v-.3-.3L5.5 2.4l-.1.1z"/><path d="M21.7 21.5l-4.1-4-4.1 4 4.1 4.1c1.2-.7 3.1-1.7 4.1-2.3.4-.2.4-.3 0-.5l-4.1-2.3 4.1-4z" opacity=".5"/><path d="M22.1 15.7L17.6 17.5l4.1 4 3.8-2.1c1.1-.6 1.1-1.6 0-2.2l-3.4-1.5z"/><path d="M5.5 29.6c.3.3.7.4 1.2.2l15.4-8.3-4.1-4.1-12.5 12.2z" opacity=".8"/></svg>
+            <div class="btn-store__text">
+              <span class="btn-store__sub">Get it on</span>
+              <span class="btn-store__name">Google Play</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="navbar__logo">
+            <div class="navbar__logo-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" width="20" height="20"><rect x="9" y="2" width="6" height="11" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><line x1="12" y1="17" x2="12" y2="21"/><line x1="8" y1="21" x2="16" y2="21"/></svg>
+            </div>
+            VoiceGab
+          </a>
+          <p>The world's first voice-first social messaging app. Express yourself beyond text.</p>
+        </div>
+        <div class="footer__col">
+          <h5>Product</h5>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="download.html">Download</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Legal</h5>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="cookies.html">Cookie Policy</a></li>
+            <li><button type="button" class="footer__link-btn" data-cookie-settings>Cookie Settings</button></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h5>Support</h5>
+          <ul>
+            <li><a href="support.html">Help Center</a></li>
+            <li><a href="support.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 VoiceGab. All rights reserved.</p>
+        <p>Made with voice, for voice.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=2" defer></script>
+  <script src="assets/js/waveform.js?v=2" defer></script>
+  <script src="assets/js/counter.js?v=2" defer></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 375 812" width="375" height="812">
+  <defs>
+    <linearGradient id="pm-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+    <clipPath id="screen-clip">
+      <rect x="16" y="16" width="343" height="780" rx="32"/>
+    </clipPath>
+  </defs>
+
+  <!-- Phone body -->
+  <rect width="375" height="812" rx="48" fill="#1A1A2E" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+
+  <!-- Screen area -->
+  <g clip-path="url(#screen-clip)">
+    <rect x="16" y="16" width="343" height="780" rx="32" fill="#0D1117"/>
+
+    <!-- Status bar -->
+    <text x="36" y="52" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#9CA3AF">9:41</text>
+    <circle cx="300" cy="46" r="5" fill="#22C55E" opacity="0.8"/>
+    <rect x="310" y="42" width="20" height="8" rx="2" fill="#9CA3AF" opacity="0.5"/>
+    <rect x="312" y="44" width="12" height="4" rx="1" fill="#9CA3AF" opacity="0.7"/>
+
+    <!-- Header bar -->
+    <rect x="16" y="64" width="343" height="56" fill="rgba(255,255,255,0.03)"/>
+    <text x="188" y="98" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" fill="#F9FAFB">VOICE GAB</text>
+    <circle cx="48" cy="92" r="16" fill="url(#pm-grad)" opacity="0.8"/>
+    <text x="48" y="97" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">VG</text>
+    <circle cx="48" cy="80" r="4" fill="#22C55E"/>
+
+    <!-- Voice message 1 (received - left) -->
+    <g transform="translate(32, 150)">
+      <rect width="220" height="64" rx="16" fill="rgba(255,255,255,0.06)"/>
+      <circle cx="28" cy="32" r="14" fill="rgba(255,255,255,0.08)"/>
+      <polygon points="24,26 34,32 24,38" fill="#9CA3AF"/>
+      <!-- Waveform bars -->
+      <rect x="52" y="18" width="3" height="12" rx="1.5" fill="#06B6D4" opacity="0.6"/>
+      <rect x="58" y="14" width="3" height="20" rx="1.5" fill="#06B6D4" opacity="0.7"/>
+      <rect x="64" y="20" width="3" height="8" rx="1.5" fill="#06B6D4" opacity="0.5"/>
+      <rect x="70" y="12" width="3" height="24" rx="1.5" fill="#06B6D4" opacity="0.8"/>
+      <rect x="76" y="16" width="3" height="16" rx="1.5" fill="#06B6D4" opacity="0.6"/>
+      <rect x="82" y="10" width="3" height="28" rx="1.5" fill="#06B6D4" opacity="0.9"/>
+      <rect x="88" y="18" width="3" height="12" rx="1.5" fill="#06B6D4" opacity="0.5"/>
+      <rect x="94" y="14" width="3" height="20" rx="1.5" fill="#06B6D4" opacity="0.7"/>
+      <rect x="100" y="22" width="3" height="4" rx="1.5" fill="#06B6D4" opacity="0.4"/>
+      <rect x="106" y="16" width="3" height="16" rx="1.5" fill="#06B6D4" opacity="0.6"/>
+      <rect x="112" y="12" width="3" height="24" rx="1.5" fill="#06B6D4" opacity="0.8"/>
+      <rect x="118" y="20" width="3" height="8" rx="1.5" fill="#06B6D4" opacity="0.5"/>
+      <text x="52" y="52" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">0:08</text>
+      <text x="180" y="52" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">2:31 PM</text>
+    </g>
+
+    <!-- Voice message 2 (sent - right) with filter badge -->
+    <g transform="translate(123, 240)">
+      <rect width="220" height="80" rx="16" fill="rgba(124,58,237,0.2)"/>
+      <!-- Robot filter badge -->
+      <rect x="8" y="6" width="96" height="20" rx="10" fill="rgba(124,58,237,0.4)"/>
+      <text x="56" y="20" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#C4B5FD">Robot Filter</text>
+      <circle cx="28" cy="48" r="14" fill="rgba(124,58,237,0.3)"/>
+      <polygon points="24,42 34,48 24,54" fill="#C4B5FD"/>
+      <!-- Waveform bars -->
+      <rect x="52" y="34" width="3" height="16" rx="1.5" fill="#8B5CF6" opacity="0.7"/>
+      <rect x="58" y="30" width="3" height="24" rx="1.5" fill="#8B5CF6" opacity="0.8"/>
+      <rect x="64" y="38" width="3" height="8" rx="1.5" fill="#8B5CF6" opacity="0.5"/>
+      <rect x="70" y="28" width="3" height="28" rx="1.5" fill="#8B5CF6" opacity="0.9"/>
+      <rect x="76" y="34" width="3" height="16" rx="1.5" fill="#8B5CF6" opacity="0.6"/>
+      <rect x="82" y="26" width="3" height="32" rx="1.5" fill="#8B5CF6" opacity="1"/>
+      <rect x="88" y="36" width="3" height="12" rx="1.5" fill="#8B5CF6" opacity="0.5"/>
+      <rect x="94" y="32" width="3" height="20" rx="1.5" fill="#8B5CF6" opacity="0.7"/>
+      <rect x="100" y="40" width="3" height="4" rx="1.5" fill="#8B5CF6" opacity="0.4"/>
+      <rect x="106" y="30" width="3" height="24" rx="1.5" fill="#8B5CF6" opacity="0.8"/>
+      <rect x="112" y="34" width="3" height="16" rx="1.5" fill="#8B5CF6" opacity="0.6"/>
+      <text x="52" y="68" font-family="Inter, sans-serif" font-size="10" fill="#8B5CF6">0:12</text>
+      <text x="180" y="68" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">2:33 PM</text>
+      <!-- Double check -->
+      <text x="198" y="68" font-family="Inter, sans-serif" font-size="10" fill="#8B5CF6">&#10003;&#10003;</text>
+    </g>
+
+    <!-- Voice message 3 (received) -->
+    <g transform="translate(32, 350)">
+      <rect width="200" height="64" rx="16" fill="rgba(255,255,255,0.06)"/>
+      <circle cx="28" cy="32" r="14" fill="rgba(255,255,255,0.08)"/>
+      <polygon points="24,26 34,32 24,38" fill="#9CA3AF"/>
+      <rect x="52" y="16" width="3" height="16" rx="1.5" fill="#06B6D4" opacity="0.7"/>
+      <rect x="58" y="20" width="3" height="8" rx="1.5" fill="#06B6D4" opacity="0.5"/>
+      <rect x="64" y="12" width="3" height="24" rx="1.5" fill="#06B6D4" opacity="0.8"/>
+      <rect x="70" y="18" width="3" height="12" rx="1.5" fill="#06B6D4" opacity="0.6"/>
+      <rect x="76" y="14" width="3" height="20" rx="1.5" fill="#06B6D4" opacity="0.7"/>
+      <rect x="82" y="20" width="3" height="8" rx="1.5" fill="#06B6D4" opacity="0.5"/>
+      <rect x="88" y="10" width="3" height="28" rx="1.5" fill="#06B6D4" opacity="0.9"/>
+      <rect x="94" y="16" width="3" height="16" rx="1.5" fill="#06B6D4" opacity="0.6"/>
+      <text x="52" y="52" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">0:05</text>
+      <text x="162" y="52" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">2:34 PM</text>
+    </g>
+
+    <!-- Typing / recording indicator -->
+    <g transform="translate(32, 440)">
+      <rect width="100" height="32" rx="16" fill="rgba(255,255,255,0.04)"/>
+      <circle cx="24" cy="16" r="3" fill="#06B6D4" opacity="0.6">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="36" cy="16" r="3" fill="#06B6D4" opacity="0.6">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.2s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="48" cy="16" r="3" fill="#06B6D4" opacity="0.6">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="60" y="20" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">recording</text>
+    </g>
+
+    <!-- Bottom input bar -->
+    <rect x="16" y="728" width="343" height="68" fill="rgba(255,255,255,0.03)"/>
+    <rect x="32" y="742" width="260" height="40" rx="20" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="52" y="767" font-family="Inter, sans-serif" font-size="13" fill="#6B7280">Hold to record...</text>
+
+    <!-- Mic button -->
+    <circle cx="324" cy="762" r="22" fill="url(#pm-grad)">
+      <animate attributeName="r" values="22;24;22" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <g transform="translate(314, 750)">
+      <rect x="5" y="2" width="10" height="14" rx="5" fill="white" opacity="0.95"/>
+      <path d="M3 16 C3 22 7 26 10 26 C13 26 17 22 17 16" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.8"/>
+    </g>
+  </g>
+
+  <!-- Dynamic island / notch -->
+  <rect x="132" y="20" width="110" height="28" rx="14" fill="#000"/>
+</svg>

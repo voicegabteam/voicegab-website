@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 560" width="280" height="560">
+  <defs>
+    <linearGradient id="ss3-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="100%" style="stop-color:#EC4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="280" height="560" rx="32" fill="#0D1117" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="24" y="36" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#9CA3AF">9:41</text>
+  <!-- Header -->
+  <text x="140" y="72" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="17" font-weight="700" fill="#F9FAFB">Voice Feed</text>
+  <!-- Trending tag -->
+  <rect x="24" y="90" width="80" height="24" rx="12" fill="rgba(124,58,237,0.15)"/>
+  <text x="64" y="106" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#8B5CF6">Trending</text>
+  <rect x="112" y="90" width="56" height="24" rx="12" fill="rgba(255,255,255,0.04)"/>
+  <text x="140" y="106" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#9CA3AF">New</text>
+  <rect x="176" y="90" width="80" height="24" rx="12" fill="rgba(255,255,255,0.04)"/>
+  <text x="216" y="106" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="500" fill="#9CA3AF">Following</text>
+
+  <!-- Feed card 1 -->
+  <g transform="translate(16, 130)">
+    <rect width="248" height="120" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <circle cx="28" cy="28" r="16" fill="url(#ss3-grad)" opacity="0.7"/>
+    <text x="28" y="33" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="white">MJ</text>
+    <text x="52" y="24" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#F9FAFB">Maya Johnson</text>
+    <text x="52" y="38" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">2h ago</text>
+    <!-- Mini waveform -->
+    <g transform="translate(16, 52)">
+      <rect x="0" y="4" width="2" height="12" rx="1" fill="#8B5CF6" opacity="0.7"/>
+      <rect x="5" y="0" width="2" height="20" rx="1" fill="#8B5CF6" opacity="0.8"/>
+      <rect x="10" y="6" width="2" height="8" rx="1" fill="#8B5CF6" opacity="0.5"/>
+      <rect x="15" y="2" width="2" height="16" rx="1" fill="#EC4899" opacity="0.7"/>
+      <rect x="20" y="4" width="2" height="12" rx="1" fill="#EC4899" opacity="0.6"/>
+      <rect x="25" y="0" width="2" height="20" rx="1" fill="#EC4899" opacity="0.8"/>
+      <rect x="30" y="6" width="2" height="8" rx="1" fill="#06B6D4" opacity="0.5"/>
+      <rect x="35" y="2" width="2" height="16" rx="1" fill="#06B6D4" opacity="0.7"/>
+      <rect x="40" y="4" width="2" height="12" rx="1" fill="#06B6D4" opacity="0.6"/>
+      <rect x="45" y="0" width="2" height="20" rx="1" fill="#8B5CF6" opacity="0.8"/>
+    </g>
+    <text x="80" y="66" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">0:32</text>
+    <!-- Engagement -->
+    <text x="16" y="100" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">&#x2764; 234</text>
+    <text x="60" y="100" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">&#x1F4AC; 18</text>
+    <text x="104" y="100" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">&#x1F504; 45</text>
+  </g>
+
+  <!-- Feed card 2 -->
+  <g transform="translate(16, 266)">
+    <rect width="248" height="120" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <circle cx="28" cy="28" r="16" fill="rgba(6,182,212,0.3)"/>
+    <text x="28" y="33" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#06B6D4">DK</text>
+    <text x="52" y="24" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#F9FAFB">David Kim</text>
+    <text x="52" y="38" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">5h ago</text>
+    <rect x="160" y="14" width="72" height="20" rx="10" fill="rgba(124,58,237,0.2)"/>
+    <text x="196" y="28" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#C4B5FD">Echo Filter</text>
+    <g transform="translate(16, 52)">
+      <rect x="0" y="2" width="2" height="16" rx="1" fill="#06B6D4" opacity="0.7"/>
+      <rect x="5" y="6" width="2" height="8" rx="1" fill="#06B6D4" opacity="0.5"/>
+      <rect x="10" y="0" width="2" height="20" rx="1" fill="#06B6D4" opacity="0.8"/>
+      <rect x="15" y="4" width="2" height="12" rx="1" fill="#8B5CF6" opacity="0.6"/>
+      <rect x="20" y="2" width="2" height="16" rx="1" fill="#8B5CF6" opacity="0.7"/>
+      <rect x="25" y="6" width="2" height="8" rx="1" fill="#8B5CF6" opacity="0.5"/>
+      <rect x="30" y="0" width="2" height="20" rx="1" fill="#EC4899" opacity="0.8"/>
+      <rect x="35" y="4" width="2" height="12" rx="1" fill="#EC4899" opacity="0.6"/>
+    </g>
+    <text x="60" y="66" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">0:18</text>
+    <text x="16" y="100" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">&#x2764; 89</text>
+    <text x="54" y="100" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">&#x1F4AC; 7</text>
+    <text x="92" y="100" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">&#x1F504; 12</text>
+  </g>
+
+  <!-- Feed card 3 (partial) -->
+  <g transform="translate(16, 402)">
+    <rect width="248" height="100" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    <circle cx="28" cy="28" r="16" fill="rgba(236,72,153,0.3)"/>
+    <text x="28" y="33" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="700" fill="#EC4899">LS</text>
+    <text x="52" y="24" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#F9FAFB">Luna Santos</text>
+    <text x="52" y="38" font-family="Inter, sans-serif" font-size="10" fill="#6B7280">8h ago</text>
+  </g>
+
+  <!-- Bottom tab bar -->
+  <rect x="0" y="512" width="280" height="48" fill="rgba(13,17,23,0.95)"/>
+  <line x1="0" y1="512" x2="280" y2="512" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <text x="46" y="540" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#6B7280">Chats</text>
+  <text x="140" y="540" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="#8B5CF6">Feed</text>
+  <text x="234" y="540" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#6B7280">Profile</text>
+  <circle cx="140" cy="524" r="2" fill="#8B5CF6"/>
+</svg>

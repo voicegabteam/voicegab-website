@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="og-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C3AED"/>
+      <stop offset="60%" style="stop-color:#EC4899"/>
+      <stop offset="100%" style="stop-color:#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="wave-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7C3AED;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#EC4899;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#06B6D4;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#080B14"/>
+  <!-- Subtle glow -->
+  <ellipse cx="600" cy="280" rx="500" ry="250" fill="url(#og-grad)" opacity="0.08"/>
+  <!-- Waveform decoration -->
+  <path d="M0 380 Q150 340 300 380 T600 380 T900 380 T1200 380" stroke="url(#wave-grad)" stroke-width="2" fill="none"/>
+  <path d="M0 400 Q150 360 300 400 T600 400 T900 400 T1200 400" stroke="url(#wave-grad)" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- App icon (small) -->
+  <g transform="translate(540, 160)">
+    <rect width="80" height="80" rx="18" fill="url(#og-grad)"/>
+    <rect x="30" y="16" width="20" height="28" rx="10" fill="white" opacity="0.95"/>
+    <path d="M24 44 C24 56 32 64 40 64 C48 64 56 56 56 44" stroke="white" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <line x1="40" y1="64" x2="40" y2="72" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  </g>
+  <!-- Title -->
+  <text x="600" y="310" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="64" font-weight="800" fill="white" letter-spacing="-0.04em">VoiceGab</text>
+  <!-- Tagline -->
+  <text x="600" y="360" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" fill="#9CA3AF">Voice-First Social Messaging</text>
+  <!-- Store badges row -->
+  <g transform="translate(430, 420)">
+    <rect width="150" height="44" rx="8" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <text x="75" y="27" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#9CA3AF">App Store</text>
+  </g>
+  <g transform="translate(620, 420)">
+    <rect width="150" height="44" rx="8" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+    <text x="75" y="27" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#9CA3AF">Google Play</text>
+  </g>
+</svg>
